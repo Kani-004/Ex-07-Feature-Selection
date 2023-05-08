@@ -199,3 +199,85 @@ plt.show()
 
 ~~~
 
+# OUPUT
+
+Data Preprocessing before Feature Selection:
+
+# Initial Dataset:
+
+![image](https://user-images.githubusercontent.com/129577149/236849353-f3b3e816-4aab-4436-be94-28afaab2bf99.png)
+
+# Data checking and cleaning:
+
+![image](https://user-images.githubusercontent.com/129577149/236849480-5aeedb0c-16ad-41da-a472-b38928eefb5e.png)
+
+![image](https://user-images.githubusercontent.com/129577149/236849546-8590ddc7-7aac-4fd9-a440-7064310dcbe6.png)
+
+# Outlier Removal
+
+![image](https://user-images.githubusercontent.com/129577149/236849628-cca71dc8-5e61-44b5-9b71-9f2777243703.png)
+
+![image](https://user-images.githubusercontent.com/129577149/236849726-b73f5f7c-ce6e-4512-a66f-442be81743ab.png)
+
+# Feature Enoding:
+
+![image](https://user-images.githubusercontent.com/129577149/236849828-e1b493ce-85db-49ac-82b7-4e447eb47e7a.png)
+
+# Feature Transformations:
+
+![image](https://user-images.githubusercontent.com/129577149/236849971-7e1f9abb-b6e3-441d-8d60-64637f83effe.png)
+
+![image](https://user-images.githubusercontent.com/129577149/236850120-fa6eed4a-745f-49ab-b9a6-f6c2ebfceab1.png)
+
+# Feature Selection
+
+# Filter Method
+
+The filtering here is done using correlation matrix and it is most commonly done using Pearson correlation.
+
+![image](https://user-images.githubusercontent.com/129577149/236850739-8dd18219-ca59-4324-a9d2-cbfa09096580.png)
+
+
+# Highly correlated features with the Output variable
+
+![image](https://user-images.githubusercontent.com/129577149/236850797-30379471-189f-4b37-a807-83cb50f60a1d.png)
+
+# Wrapper Method:
+
+Wrapper Method is an iterative and computationally expensive process but it is more accurate than the filter method.
+
+There are different wrapper methods such as Backward Elimination, Forward Selection, Bidirectional Elimination and RFE.
+
+# Backward Elimination:
+
+![image](https://user-images.githubusercontent.com/129577149/236851042-af8207f3-71a5-4a92-ae2b-0e28d8a75959.png)
+
+![image](https://user-images.githubusercontent.com/129577149/236851104-3e81acba-e120-4f99-b9e8-4d89460020c8.png)
+
+# RFE (Recursive Feature Elimination):
+
+![image](https://user-images.githubusercontent.com/129577149/236851231-5346e2b8-7cc1-40f0-af50-ffc797b351e7.png)
+
+# Optimum number of features that have high accuracy:
+
+![image](https://user-images.githubusercontent.com/129577149/236851339-fb1cf47b-ab4d-4d5f-b8f8-954c7141309c.png)
+
+# Final set of feature:
+
+![image](https://user-images.githubusercontent.com/129577149/236851447-38bf9812-62ca-473c-84df-ba9dc0fa21f5.png)
+
+# Embedded Method:
+
+Embedded methods are iterative in a sense that takes care of each iteration of the model training process and carefully extract those features which contribute the most to the training for a particular iteration. Regularization methods are the most commonly used embedded methods which penalize a feature given a coefficient threshold.
+
+![image](https://user-images.githubusercontent.com/129577149/236851723-eb9c87d3-15df-43ab-8a86-9e14701e79e9.png)
+
+# RESULT:
+
+Thus, the various feature selection techniques have been performed on a given dataset successfully.
+
+
+
+
+
+
